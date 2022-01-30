@@ -5,7 +5,7 @@ const {
 } = require("../controllers/trailers.controllers");
 const router = express.Router();
 
-router.route("/").get(getTrailer);
-router.route("/viaplay").get(getTrailerFromViaPlay);
+router.route("/").post(getTrailer);
+router.route("/viaplay").post(getTrailerFromViaPlay);
 
 module.exports = router;
