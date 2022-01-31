@@ -34,3 +34,9 @@
 
 - run command `npm run test`
 - If you want to watch test run command `npm run test-watch`
+
+## To do
+
+- Add test cases for all outcomes, right now I have written just two tests.
+- Mock axios response so that we are not making unneccesary calls to API while testing
+- Add some sort of logger like pino or morgan etc.
