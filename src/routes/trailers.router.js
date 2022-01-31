@@ -2,7 +2,7 @@ const express = require("express");
 const {
   getTrailer,
   getTrailerFromViaPlay,
-} = require("../controllers/trailers.controllers");
+} = require("../controllers/trailers.controller");
 const router = express.Router();
 
 router.route("/").post(getTrailer);

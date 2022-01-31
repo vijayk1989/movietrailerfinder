@@ -15,6 +15,7 @@ const getTrailer = async (req, res, next) => {
 
     // Get movie id from the themoviedb
     const { movieName, movieYear } = getMovieAndYear(url);
+    if (!movieName || !movieYear) throw createError(400, "invalid url");
     const getMovieIDUrl = "https://api.themoviedb.org/3/search/movie?";
     if (!API_KEY) throw createError(401, "moviedb API Key is invalid");
     const paramsToGetMovieID = new URLSearchParams({
