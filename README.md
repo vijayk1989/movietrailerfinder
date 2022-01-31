@@ -33,3 +33,4 @@
 ## How to tests
 
 - run command `npm run test`
+- If you want to watch test run command `npm run test-watch`
