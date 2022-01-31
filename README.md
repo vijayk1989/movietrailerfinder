@@ -29,3 +29,7 @@
 - { "url": "https://content.viaplay.se/pcdash-se/film/focus-2015" }
 - You should get a response like https://www.youtube.com/watch?v=6vY9UPiI4eQ
 - If you dont get a youtube url response you should get an error message with some details as to what went wrong
+
+## How to tests
+
+- run command `npm run test`
